@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(69, 185, 193);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 350px;
+    margin: 40px auto;
+    background-color: rgb(234, 223, 225);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+label {
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+input[type="text"], select,input[type="date"], textarea {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(83, 172, 172);
+    border: 2;
+    border-style:outset;
+}
+
+button:hover{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
